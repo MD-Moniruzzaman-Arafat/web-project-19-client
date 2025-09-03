@@ -1,3 +1,5 @@
+import { Link } from 'react-router'
+
 export default function Menu() {
   return (
     <>
@@ -15,6 +17,9 @@ export default function Menu() {
       </li>
       <li>
         <a>Contact</a>
+      </li>
+      <li>
+        <Link to="/add-new-service">Add New Service</Link>
       </li>
       <li>
         <a className="btn btn-outline text-[#FF3811] border-[#FF3811] text-xs lg:hidden flex">
