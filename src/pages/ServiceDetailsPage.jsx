@@ -1,3 +1,4 @@
+import { Link } from 'react-router'
 import img2 from '../assets/images/banner/3.jpg'
 import img from '../assets/images/checkout/checkout.png'
 
@@ -88,9 +89,9 @@ export default function ServiceDetailsPage() {
           <div className=" col-span-1">
             <div>
               <h2 className="text-xl font-bold mb-2">Price $250.00</h2>
-              <button className="btn bg-[#FF5733] text-white">
+              <Link to="/checkout" className="btn bg-[#FF5733] text-white">
                 Proceed Checkout
-              </button>
+              </Link>
             </div>
           </div>
         </div>
