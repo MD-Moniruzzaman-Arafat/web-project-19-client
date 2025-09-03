@@ -1,4 +1,5 @@
 import { IoMdArrowForward } from 'react-icons/io'
+import { Link } from 'react-router'
 import img from '../../assets/images/services/1.jpg'
 
 export default function ServiceCard() {
@@ -12,9 +13,9 @@ export default function ServiceCard() {
           <h2 className="card-title">Electrical System</h2>
           <div className="card-actions justify-end items-center text-[#FF3811]">
             <p>Price : $20.00</p>
-            <button>
+            <Link to="/service-details">
               <IoMdArrowForward />
-            </button>
+            </Link>
           </div>
         </div>
       </div>
