@@ -3,6 +3,7 @@ import MainLayout from '../layouts/MainLayout'
 import AddNewService from '../pages/AddNewService'
 import CheckOut from '../pages/CheckOut'
 import HomePage from '../pages/HomePage'
+import LoginPage from '../pages/LoginPage'
 import ServiceDetailsPage from '../pages/ServiceDetailsPage'
 
 const router = createBrowserRouter([
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/add-new-service',
         element: <AddNewService />,
+      },
+      {
+        path: '/login',
+        element: <LoginPage />,
       },
     ],
   },
